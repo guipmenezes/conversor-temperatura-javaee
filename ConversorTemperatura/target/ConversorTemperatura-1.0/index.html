@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conversor de Temperatura</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Conversor de Temperatura</h1>
+        <h2>Selecione para qual escala deseja converter...</h2>
+        <form action="conversor">
+            <div>
+                <p>Da escala: </p>
+                <select name="opcoes1">
+                    <option value="celcius" name="celsius">Celsius</option>
+                    <option value="fahrenheit" name="fahrenheit">Fahrenheit</option>
+                </select>
+            </div>
+            <div>
+                <p>Para: </p>
+                <select name="opcoes2">
+                    <option value="celcius" name="celsius">Celsius</option>
+                    <option value="fahrenheit" name="fahrenheit">Fahrenheit</option>
+                </select>
+            </div>
+            <br>
+            <input type="number" name="grau"/>
+            <input type="submit" name="converter"/>
+        </form>
+    </body>
+</html>
